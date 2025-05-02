@@ -1,7 +1,7 @@
 <script setup>
 import { RouterLink } from 'vue-router';
 import { defineProps, ref, computed } from 'vue';
-import BackButton from '@/components/BackButton'
+
 
 const props = defineProps({
     job: Object,
@@ -22,7 +22,7 @@ const truncatedDescription = computed(() => {
 })
 </script>
 <template>
-<BackButton />
+
 <div class="bg-white rounded-xl shadow-md relative">
             <div class="p-4">
               <div class="mb-6">
